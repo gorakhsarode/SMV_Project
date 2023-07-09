@@ -1,0 +1,160 @@
+.mean{
+    width:95%;
+    height: 100vh;
+    margin-left: 2.2rem;
+    margin-top: 1rem;
+    background-color: #FF5733;
+}
+
+.slider{
+    height: 25rem;
+    width: auto;
+}
+
+.myclass img{
+    width: 80.1rem;
+}
+
+
+.grid-notice{
+    width: 100%;
+    height: 27rem;
+}
+.image_grid{
+    float: left;
+    width: 40%;
+    height: 10rem;
+    margin-left: 4rem;
+}
+mat-grid-tile {
+    background: lightblue;
+    border-radius: 10px;
+
+  }
+
+  .noticeBoard{
+      float: right;
+      margin-right: 4rem;
+      height: 25rem;
+      width: 25rem;
+
+  }
+
+ .mat-tab-group {
+    border-radius: 15px;
+    height: 24.7rem;
+    width: auto;
+    background-color: rgb(176, 230, 122);
+
+ }
+
+ .current_std{
+     width: 100%;
+     height: 15rem;
+    background-color: black;
+ }
+
+ .icon{
+     width: 33rem;
+     height: 10rem;
+     background-color: bisque;
+     float: left;
+     margin-left: 5rem;
+     
+ }
+
+.count{
+    float: right;
+    width: 35rem;
+    height: 10rem;
+    margin-right: 5rem;
+    border-left: 2px solid #FFF;
+}
+.count1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    float: left;
+    width: 5rem;
+    height: 4rem;
+    background-color: antiquewhite;
+    padding-top: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #FF5733;
+
+}
+.count2{
+    color: #FFF;
+    padding-top: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    float: left;
+    width: 5rem;
+    height: 4rem;
+    background-color: antiquewhite;
+    background-color: #FF5733;
+
+}
+.count3{
+    color: #FFF;
+    padding-top: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+    float: left;
+    width: 5rem;
+    height: 4rem;
+    background-color: antiquewhite;
+    background-color: #FF5733;
+}
+.naming{
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    padding-left: 3rem;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: #FFF;
+}
+
+ /*-- Data For Notice board-----------------*/
+.Ndata{
+    margin-left: 0.5rem;
+    table-layout: fixed;
+    width: 95%;
+}
+
+.notice_data1{
+    height: 3rem;
+    padding: 1rem;
+    width: 1rem;
+    border-bottom: crimson solid 2px;
+     color: #FF5733;
+     overflow-wrap: break-word;
+
+}
+
+.notice_data2{
+    height: 3rem;
+    width: 17.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: crimson solid 2px;
+     color: #FF5733;
+     overflow-wrap: break-word;
+}
+
+.notice_data3{
+    height: 3rem;
+    width: 2.5rem;
+    overflow-wrap: break-word;
+    border-bottom: crimson solid 2px;
+     color: #FF5733;
+}

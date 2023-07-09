@@ -1,0 +1,156 @@
+ 
+<app-menu></app-menu>
+<div class="mean">
+
+  <div class="slider">
+    <!----  <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows"
+      [showNavigationIndicators]="showNavigationIndicators">
+      <ng-template ngbSlide *ngFor="let image of images">
+        <div class="picsum-img-wrapper">
+          <img [src]="image" alt="Random slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>No mouse navigation</h3>
+          <p>This carousel hides navigation arrows and indicators.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <hr>
+   ---->
+    <ngb-carousel *ngIf="images" class="myclass" [pauseOnHover]="false">
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[0]" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[1]" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[2]" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+
+  </div>
+
+  <br> <br> <br>
+
+  <div class="grid-notice">
+    <div class="image_grid">
+      <mat-grid-list cols="2" rowHeight="200">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile> <img src="..\assets\smv.jpg" alt=""></mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+      </mat-grid-list>
+
+    </div>
+
+    <div class="noticeBoard">
+      <mat-tab-group animationDuration="0ms" [backgroundColor]="'primary'" [color]="'accent'">
+        <mat-tab label="Notice Board" fitInkBarToContent="true">
+          <marquee behavior="Scroll" direction="up" scrollamount="10" >
+            <table *ngFor="let Nboard of noticeBordData" class="Ndata">
+              <td class="notice_data1">{{Nboard.id}} </td>
+              <td class="notice_data2">{{Nboard.Content}} </td>
+              <td class="notice_data3">{{Nboard.Doc}} </td>
+            </table>
+          </marquee>
+
+
+        
+
+        </mat-tab>
+
+
+        <mat-tab label="News">Content 2 lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum inventore
+          delectus odio quae nobis eaque tempore ullam voluptatum atque voluptatem. Dolore cupiditate nam quasi
+          voluptatum alias nostrum porro, magni omnis modi blanditiis commodi obcaecati deleniti fuga. Commodi
+          perferendis recusandae, accusamus odio deleniti aperiam ab laudantium harum quasi error nobis blanditiis
+          minima illo quam a. Nihil mollitia possimus optio accusantium. Repudiandae quisquam deleniti ipsum qui
+          deserunt exercitationem error! Minus, quod molestias? Veniam excepturi neque recusandae dolores aut cupiditate
+          voluptates optio, consequuntur autem itaque non repudiandae. Blanditiis hic deleniti at omnis facilis,
+          assumenda vel tempora maiores amet sapiente unde ducimus, commodi repellendus! Accusantium libero, quo
+          repudiandae nam nihil nostrum impedit voluptatum aspernatur enim veritatis in sit tenetur neque quaerat, odio
+          labore et, autem tempora fuga eaque similique consequatur reiciendis. Ipsum adipisci officiis ea eius quasi,
+          perferendis possimus. Ducimus aut cum, labore aliquam repellendus officia accusantium obcaecati voluptas
+          dignissimos inventore iure explicabo. Ipsa veniam quo unde consequuntur similique nulla, natus excepturi saepe
+          laborum veritatis alias asperiores sequi ex, eum facere odio consectetur eveniet cumque explicabo adipisci,
+          nemo minima voluptatibus! Sit quae adipisci assumenda ullam dicta eligendi error nisi pariatur incidunt
+          dignissimos vel tenetur corporis iste cumque, consectetur atque dolores, libero dolorum sunt quod labore illo.
+          Soluta facilis asperiores itaque totam velit fugiat consequuntur voluptas recusandae, est beatae culpa,
+          quaerat, placeat autem non. Quasi natus, amet nemo rem ex ipsa dolorem corporis quod, a aperiam iusto facere.
+          Vel, ea. Autem est eligendi, cumque necessitatibus consequatur excepturi? Nihil, ullam id delectus aliquam
+          tempore ipsum cupiditate repellat velit exercitationem magnam? Distinctio voluptatum aliquam quo illo nisi
+          quasi neque aliquid aperiam consectetur dignissimos facere rem nostrum, maiores accusantium adipisci itaque?
+          Placeat sit adipisci non earum quaerat cum magnam eius eaque nulla pariatur deserunt quisquam, quia veniam
+          numquam modi natus culpa odit. A architecto quaerat ab ullam, quidem sint, numquam itaque consectetur
+          inventore nesciunt cupiditate, tempore sed! Odio, libero nemo officia, adipisci debitis dolorum pariatur
+          dolorem maxime possimus tempora voluptas reprehenderit, temporibus voluptatibus quibusdam iusto velit cum
+          eaque necessitatibus illo? Cum nesciunt aperiam minima numquam iure enim doloribus officia possimus fugiat
+          tenetur quia voluptas, corporis accusantium. Laudantium iusto voluptate omnis, optio adipisci, id voluptatum
+          necessitatibus deserunt accusantium aspernatur excepturi facere totam sunt praesentium debitis at. Rem
+          architecto deleniti dolores perferendis eius sequi perspiciatis, vel fugit aperiam laborum ut eligendi
+          laudantium voluptas, nisi corrupti obcaecati, facilis quod sit aliquam labore non eaque veniam impedit quis!
+          Ea repellat optio non iusto commodi distinctio laboriosam velit expedita! Vitae provident, odit ratione
+          blanditiis a doloribus perspiciatis architecto illo fugit animi, reiciendis illum non libero obcaecati dolorum
+          repellendus ut dolor! Quod qui, distinctio blanditiis tempore voluptate alias natus commodi illo, ab
+          voluptates neque perferendis nulla optio, possimus amet iure in molestias reprehenderit non. Quibusdam beatae
+          ipsa praesentium ut. Recusandae officia, doloribus reprehenderit beatae accusantium dolor quia, ab vero,
+          blanditiis maxime eum sint. Voluptatibus, itaque at. Dolorem ea error hic nesciunt eveniet saepe ullam. Alias
+          odit ratione commodi. Labore autem facilis facere blanditiis molestias, repudiandae soluta illum libero, velit
+          odit quisquam exercitationem cum ratione.</mat-tab>
+
+      </mat-tab-group>
+    </div>
+
+
+  </div>
+
+
+  <div class="current_std">
+    <br><br>
+
+    <div class="icon">
+
+
+    </div>
+
+    <div class="count">
+      <div class="count1">
+        <p>{{count1}}</p>
+      </div>
+      <div class="count2">
+        <p>{{count2}}</p>
+      </div>
+      <div class="count3">
+        <p>{{count3}}</p>
+      </div>
+      <div class="naming">
+        <p>Alumnus &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Admissions
+          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Awards</p>
+
+      </div>
+    </div>
+  </div>
+
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolores qui accusamus similique rerum at? Rem
+  provident reiciendis dolores magni nesciunt deserunt voluptatum nam, mollitia iste, eius blanditiis. Eum, molestiae.
+
+</div> 
